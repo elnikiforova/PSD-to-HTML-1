@@ -3,3 +3,15 @@ The big fight live: Ham vs Cheese!
  </div>`;
 
 $('#tweets div').append(tweet);
+// $('#tweets div').html(tweet);
+// $('#tweets div').text(tweet);
+
+// event binding
+$('#points-of-sale').on('click', function () {
+  console.log('event binder');
+})
+
+// event helper
+$('#contact').click(function () {
+  console.log('event helper');
+})
